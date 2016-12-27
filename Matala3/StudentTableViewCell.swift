@@ -10,6 +10,8 @@ import UIKit
 
 class StudentTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var lastName: UILabel!
+    @IBOutlet weak var firstName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

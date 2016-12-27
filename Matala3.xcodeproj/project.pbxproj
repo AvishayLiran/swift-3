@@ -13,6 +13,13 @@
 		9EF33AFE1E0BF1BB004864C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF33AFD1E0BF1BB004864C1 /* Assets.xcassets */; };
 		9EF33B011E0BF1BB004864C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF33AFF1E0BF1BB004864C1 /* LaunchScreen.storyboard */; };
 		9EF33B0C1E0BF1BB004864C1 /* Matala3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF33B0B1E0BF1BB004864C1 /* Matala3Tests.swift */; };
+		9EF33B171E0C039E004864C1 /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF33B161E0C039E004864C1 /* StudentsTableViewController.swift */; };
+		9EF33B191E0C1574004864C1 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF33B181E0C1574004864C1 /* StudentTableViewCell.swift */; };
+		9EF33B1B1E0C2336004864C1 /* StudentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF33B1A1E0C2336004864C1 /* StudentDetailsViewController.swift */; };
+		9EF33B201E0C2D1A004864C1 /* MasterStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF33B1C1E0C2D1A004864C1 /* MasterStudent.swift */; };
+		9EF33B211E0C2D1A004864C1 /* PhdStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF33B1D1E0C2D1A004864C1 /* PhdStudent.swift */; };
+		9EF33B221E0C2D1A004864C1 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF33B1E1E0C2D1A004864C1 /* Student.swift */; };
+		9EF33B231E0C2D1A004864C1 /* StudentDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF33B1F1E0C2D1A004864C1 /* StudentDataBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		9EF33B071E0BF1BB004864C1 /* Matala3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Matala3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF33B0B1E0BF1BB004864C1 /* Matala3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matala3Tests.swift; sourceTree = "<group>"; };
 		9EF33B0D1E0BF1BB004864C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF33B161E0C039E004864C1 /* StudentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
+		9EF33B181E0C1574004864C1 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		9EF33B1A1E0C2336004864C1 /* StudentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDetailsViewController.swift; sourceTree = "<group>"; };
+		9EF33B1C1E0C2D1A004864C1 /* MasterStudent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterStudent.swift; sourceTree = "<group>"; };
+		9EF33B1D1E0C2D1A004864C1 /* PhdStudent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhdStudent.swift; sourceTree = "<group>"; };
+		9EF33B1E1E0C2D1A004864C1 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9EF33B1F1E0C2D1A004864C1 /* StudentDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDataBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +91,19 @@
 		9EF33AF51E0BF1BB004864C1 /* Matala3 */ = {
 			isa = PBXGroup;
 			children = (
+				9EF33B1C1E0C2D1A004864C1 /* MasterStudent.swift */,
+				9EF33B1D1E0C2D1A004864C1 /* PhdStudent.swift */,
+				9EF33B1E1E0C2D1A004864C1 /* Student.swift */,
+				9EF33B1F1E0C2D1A004864C1 /* StudentDataBase.swift */,
 				9EF33AF61E0BF1BB004864C1 /* AppDelegate.swift */,
 				9EF33AF81E0BF1BB004864C1 /* ViewController.swift */,
 				9EF33AFA1E0BF1BB004864C1 /* Main.storyboard */,
 				9EF33AFD1E0BF1BB004864C1 /* Assets.xcassets */,
 				9EF33AFF1E0BF1BB004864C1 /* LaunchScreen.storyboard */,
 				9EF33B021E0BF1BB004864C1 /* Info.plist */,
+				9EF33B161E0C039E004864C1 /* StudentsTableViewController.swift */,
+				9EF33B181E0C1574004864C1 /* StudentTableViewCell.swift */,
+				9EF33B1A1E0C2336004864C1 /* StudentDetailsViewController.swift */,
 			);
 			path = Matala3;
 			sourceTree = "<group>";
@@ -199,8 +220,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF33B171E0C039E004864C1 /* StudentsTableViewController.swift in Sources */,
 				9EF33AF91E0BF1BB004864C1 /* ViewController.swift in Sources */,
+				9EF33B1B1E0C2336004864C1 /* StudentDetailsViewController.swift in Sources */,
+				9EF33B201E0C2D1A004864C1 /* MasterStudent.swift in Sources */,
 				9EF33AF71E0BF1BB004864C1 /* AppDelegate.swift in Sources */,
+				9EF33B211E0C2D1A004864C1 /* PhdStudent.swift in Sources */,
+				9EF33B191E0C1574004864C1 /* StudentTableViewCell.swift in Sources */,
+				9EF33B231E0C2D1A004864C1 /* StudentDataBase.swift in Sources */,
+				9EF33B221E0C2D1A004864C1 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
